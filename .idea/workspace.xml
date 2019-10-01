@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b26a249d-a36b-4805-b248-af8e60c1288d" name="Default Changelist" comment="" />
+    <list default="true" id="b26a249d-a36b-4805-b248-af8e60c1288d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ArvoreBinariaBuscaView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArvoreBinariaBusca.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ArvoreBinariaBusca.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArvoreBinariaBusca/ArvoreBuscaBinaria$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArvoreBinariaBusca/ArvoreBuscaBinaria$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArvoreBinariaBusca/ArvoreBuscaBinaria.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArvoreBinariaBusca/ArvoreBuscaBinaria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArvoreBinariaBusca/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArvoreBinariaBusca/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArvoreBuscaBinaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArvoreBuscaBinaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,17 +21,37 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1QR5zgOiThTn0NmvG1N39mvOYJU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -36,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ArvoreBuscaBinariaTest.isBalanced">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ArvoreBinariaBusca" />
@@ -44,8 +73,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArvoreBuscaBinariaTest.isBalanced" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ArvoreBinariaBusca" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArvoreBuscaBinariaTest" />
+      <option name="METHOD_NAME" value="isBalanced" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArvoreBuscaBinariaTest.isBalanced" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -63,11 +103,34 @@
       <workItem from="1567720833771" duration="1089000" />
       <workItem from="1567723946689" duration="2148000" />
       <workItem from="1568152407660" duration="2319000" />
-      <workItem from="1568303597500" duration="4160000" />
+      <workItem from="1568303597500" duration="4582000" />
+      <workItem from="1568325735375" duration="171000" />
+      <workItem from="1568326017133" duration="5072000" />
+      <workItem from="1568736768068" duration="1123000" />
+      <workItem from="1568758134150" duration="69000" />
+      <workItem from="1569349114251" duration="1576000" />
+      <workItem from="1569361561699" duration="306000" />
+      <workItem from="1569536257777" duration="7000" />
+      <workItem from="1569536322658" duration="2015000" />
+      <workItem from="1569541016607" duration="267000" />
+      <workItem from="1569934624632" duration="1642000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

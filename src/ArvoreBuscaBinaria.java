@@ -2,6 +2,22 @@ public class ArvoreBuscaBinaria {
 
     private Node root = null;
 
+    public boolean isBalanced(){
+        if (root.balanced(root) >= -1 && root.balanced(root) <= 1){
+            return true;
+        }
+        return false;
+    }
+
+
+    //Método para usar nos testes
+    public int balanced(){
+        if (root.balanced(root) >= -1 && root.balanced(root) <= 1){
+            return 1;
+        }
+        return root.height(root);
+    }
+
     public void remove(int value){
         if (root == null){
             System.out.println("Árvore Vazia");
@@ -32,7 +48,11 @@ public class ArvoreBuscaBinaria {
         return root.search(i);
     }
 
-    public class Node {
+    public Node getRoot(){
+        return root;
+    }
+
+    public static class Node {
         private Node left = null;
         private Node right = null;
         private int value = 0;
@@ -109,6 +129,26 @@ public class ArvoreBuscaBinaria {
             }
         }
 
+        private int balanced(Node root){
+            int right = height(root.right);
+            int left = height(root.left);
+            return left - right;
+        }
+
+        private int height(Node root){
+            if (root == null){
+                return -1;
+            }
+            int left = height(root.left);
+            int right = height(root.right);
+
+            if (left > right){
+                return left+1;
+            }else{
+                return right+1;
+            }
+        }
+
         private Node removeCurrent(Node current) {
             Node node1, node2;
             //Sem filho da esquerda. Apontar para o filho da direita.
@@ -132,6 +172,14 @@ public class ArvoreBuscaBinaria {
             node2.right = current.right;
             return node2;
         }
-    }
 
+        public Node getLeft() {
+            return left;
+        }
+
+        public Node getRight() {
+            return right;
+        }
+
+    }
 }
